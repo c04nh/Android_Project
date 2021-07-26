@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Android_Project</string>
+    <string name="layout1_title">Choose Food Type</string>
+    <string name="KF">Korean Food</string>
+    <string name="JF">Japanese Food</string>
+    <string name="CF">Chinese Food</string>
+    <string name="WF">Western Food</string>
+    <string name="ETC">Etc</string>
+    <string name="D">Dessert</string>
 </resources>
