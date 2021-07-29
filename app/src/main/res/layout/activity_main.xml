@@ -6,15 +6,55 @@
     android:layout_height="match_parent"
     android:background="@drawable/start"
     android:orientation="vertical"
-    android:gravity="center"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="40dp"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="900px"
+            android:layout_height="900px"
+            app:srcCompat="@drawable/startlogo"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="70dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btn_start"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/typo_ssangmundongb"
+                android:backgroundTint="#B5EA77"
+                android:text="둘러보기"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+                <Button
+                    android:id="@+id/btn_login"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/typo_ssangmundongb"
+                    android:layout_marginRight="5dp"
+                    android:backgroundTint="#B5EA77"
+                    android:text="로그인"/>
+                <Button
+                    android:id="@+id/btn_create_account"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/typo_ssangmundongb"
+                    android:backgroundTint="#B5EA77"
+                    android:text="회원가입"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="1500px"
-        android:layout_height="1500px"
-        android:layout_centerVertical="true"
-        app:srcCompat="@drawable/startlogo" />
 
 </LinearLayout>
