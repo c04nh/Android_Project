@@ -2,5 +2,5 @@
 <font-family xmlns:android="http://schemas.android.com/apk/res/android">
     <font android:fontStyle="normal"
         android:fontWeight="400"
-        android:font="@font/typo_SsangmunDongB"/>
+        android:font="@font/typo_ssangmundongb"/>
 </font-family>

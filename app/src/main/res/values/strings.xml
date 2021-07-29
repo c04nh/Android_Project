@@ -1,10 +1,14 @@
 <resources>
     <string name="app_name">Android_Project</string>
-    <string name="layout1_title">Choose Food Type</string>
-    <string name="KF">Korean Food</string>
-    <string name="JF">Japanese Food</string>
-    <string name="CF">Chinese Food</string>
-    <string name="WF">Western Food</string>
-    <string name="ETC">Etc</string>
-    <string name="D">Dessert</string>
+    <string name="layout1_title">CHOOSE FOOD TYPE</string>
+    <string name="f1">한식</string>
+    <string name="f2">분식</string>
+    <string name="f3">일식</string>
+    <string name="f4">양식</string>
+    <string name="f5">중식</string>
+    <string name="f6">아시안</string>
+    <string name="f7">치킨</string>
+    <string name="f8">디저트</string>
+    <string name="f9">패스트푸드</string>
+    <string name="f10">도시락</string>
 </resources>
