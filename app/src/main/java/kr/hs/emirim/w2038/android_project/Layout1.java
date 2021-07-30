@@ -26,12 +26,43 @@ public class Layout1 extends AppCompatActivity {
         lunchbox = findViewById(R.id.lunchbox);
         fusion = findViewById(R.id.fusion);
 
-        korean.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Layout1.this, Korean.class);
-                startActivity(intent);
-            }
-        });
+        korean.setOnClickListener(btnListener);
     }
+    View.OnClickListener btnListener = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent intent;
+            switch (v.getId()){
+                case R.id.korean:
+                     intent = new Intent(Layout1.this, Korean.class);
+                     startActivity(intent);
+                     break;
+                case R.id.snack:
+                    break;
+                case R.id.japanese:
+                    break;
+                case R.id.chinese:
+                    break;
+                case R.id.western:
+                    break;
+                case R.id.etc:
+                    break;
+                case R.id.chicken:
+                    break;
+                case R.id.pizza:
+                    break;
+                case R.id.dessert:
+                    break;
+                case R.id.fastfood:
+                    break;
+                case R.id.lunchbox:
+                    break;
+                case R.id.fusion:
+                    break;
+
+            }
+
+        }
+    };
+
 }
