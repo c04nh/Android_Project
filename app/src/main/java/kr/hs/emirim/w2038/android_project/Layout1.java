@@ -27,6 +27,7 @@ public class Layout1 extends AppCompatActivity {
         fusion = findViewById(R.id.fusion);
 
         korean.setOnClickListener(btnListener);
+        snack.setOnClickListener(btnListener);
     }
     View.OnClickListener btnListener = new View.OnClickListener() {
         @Override
@@ -34,10 +35,12 @@ public class Layout1 extends AppCompatActivity {
             Intent intent;
             switch (v.getId()){
                 case R.id.korean:
-                     intent = new Intent(Layout1.this, Korean.class);
-                     startActivity(intent);
-                     break;
+                    intent = new Intent(Layout1.this, Korean.class);
+                    startActivity(intent);
+                    break;
                 case R.id.snack:
+                    intent = new Intent(Layout1.this, Snack.class);
+                    startActivity(intent);
                     break;
                 case R.id.japanese:
                     break;
@@ -61,6 +64,8 @@ public class Layout1 extends AppCompatActivity {
                     break;
 
             }
+
+
 
         }
     };
