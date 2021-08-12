@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_Project">
-        <activity android:name=".Chinese"></activity>
+        <activity android:name=".Western"></activity>
+        <activity android:name=".Chinese" />
         <activity android:name=".Japanese" />
         <activity android:name=".Snack" />
         <activity android:name=".Korean" />
