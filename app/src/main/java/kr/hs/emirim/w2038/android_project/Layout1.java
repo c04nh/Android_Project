@@ -33,6 +33,7 @@ public class Layout1 extends AppCompatActivity {
         western.setOnClickListener(btnListener);
         etc.setOnClickListener(btnListener);
         chicken.setOnClickListener(btnListener);
+        pizza.setOnClickListener(btnListener);
     }
     View.OnClickListener btnListener = new View.OnClickListener() {
         @Override
@@ -68,6 +69,8 @@ public class Layout1 extends AppCompatActivity {
                     startActivity(intent);
                     break;
                 case R.id.pizza:
+                    intent = new Intent(Layout1.this, Pizza.class);
+                    startActivity(intent);
                     break;
                 case R.id.dessert:
                     break;
