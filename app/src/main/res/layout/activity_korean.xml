@@ -356,6 +356,15 @@
                 android:backgroundTint="#B5EA77"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
+                android:text="미스터보쌈5379 녹두거리점"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/typo_ssangmundongb"
+                android:textSize="25dp"
+                android:backgroundTint="#B5EA77"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
                 android:text="박자연착한음식이야기"/>
             <Button
                 android:layout_width="match_parent"
