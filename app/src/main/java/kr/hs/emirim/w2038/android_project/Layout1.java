@@ -9,6 +9,7 @@ import android.widget.Button;
 
 public class Layout1 extends AppCompatActivity {
     Button korean, snack, japanese, chinese, western, etc, chicken, pizza, dessert, fastfood, lunchbox, fusion;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
