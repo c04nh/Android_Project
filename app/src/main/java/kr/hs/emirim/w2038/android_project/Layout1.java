@@ -38,6 +38,7 @@ public class Layout1 extends AppCompatActivity {
         dessert.setOnClickListener(btnListener);
         fastfood.setOnClickListener(btnListener);
         lunchbox.setOnClickListener(btnListener);
+        fusion.setOnClickListener(btnListener);
     }
     View.OnClickListener btnListener = new View.OnClickListener() {
         @Override
@@ -89,6 +90,8 @@ public class Layout1 extends AppCompatActivity {
                     startActivity(intent);
                     break;
                 case R.id.fusion:
+                    intent = new Intent(Layout1.this, Fusion.class);
+                    startActivity(intent);
                     break;
 
             }
