@@ -8,13 +8,16 @@ import android.view.View;
 import android.widget.Button;
 
 public class Korean extends AppCompatActivity {
-    Button back;
+    Button back, btn1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_korean);
 
         back = findViewById(R.id.back);
+        btn1 = findViewById(R.id.btn1);
+
+        btn1.setOnClickListener(btnListener);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -24,4 +27,15 @@ public class Korean extends AppCompatActivity {
             }
         });
     }
+    View.OnClickListener btnListener = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent intent;
+            switch (v.getId()){
+                case R.id.btn1:
+                    intent = new Intent(Korean.this, Korean1.class);
+                    startActivity(intent);
+            }
+        }
+    };
 }
