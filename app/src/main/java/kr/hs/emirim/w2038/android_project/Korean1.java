@@ -7,15 +7,12 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-import androidx.appcompat.app.AppCompatActivity;
-import android.os.Bundle;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.google.android.gms.maps.GoogleMap;
 
 public class Korean1 extends AppCompatActivity implements OnMapReadyCallback{
 
@@ -42,7 +39,12 @@ public class Korean1 extends AppCompatActivity implements OnMapReadyCallback{
         LatLng location = new LatLng(37.469181, 126.9342485);
 
         MarkerOptions markerOptions = new MarkerOptions();
-        googleMap.addMarker(new MarkerOptions().position(location).title("가마솥한방삼계탕"));
+        markerOptions.position(location);
+        markerOptions.title("가마솥한방삼계탕");
+        markerOptions.snippet("백숙,삼계탕");
+        mMap.addMarker(markerOptions);
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 10));
+//        googleMap.addMarker(new MarkerOptions().position(location).title("가마솥한방삼계탕"));
     }
 
 
