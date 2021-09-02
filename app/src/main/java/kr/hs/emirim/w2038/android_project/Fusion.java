@@ -14,6 +14,8 @@ public class Fusion extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fusion);
 
+        back = findViewById(R.id.back);
+
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
