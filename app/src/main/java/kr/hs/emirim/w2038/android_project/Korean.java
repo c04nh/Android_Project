@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class Korean extends AppCompatActivity {
-    Button back, btn1;
+    Button back, btn1, btn2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,6 +16,7 @@ public class Korean extends AppCompatActivity {
 
         back = findViewById(R.id.back);
         btn1 = findViewById(R.id.btn1);
+        btn2 = findViewById(R.id.btn2);
 
         btn1.setOnClickListener(btnListener);
 
@@ -34,6 +35,9 @@ public class Korean extends AppCompatActivity {
             switch (v.getId()){
                 case R.id.btn1:
                     intent = new Intent(Korean.this, Korean1.class);
+                    startActivity(intent);
+                case R.id.btn2:
+                    intent = new Intent(Korean.this, Korean2.class);
                     startActivity(intent);
             }
         }
