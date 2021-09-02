@@ -36,9 +36,11 @@ public class Korean extends AppCompatActivity {
                 case R.id.btn1:
                     intent = new Intent(Korean.this, Korean1.class);
                     startActivity(intent);
+                    break;
                 case R.id.btn2:
                     intent = new Intent(Korean.this, Korean2.class);
                     startActivity(intent);
+                    break;
             }
         }
     };
