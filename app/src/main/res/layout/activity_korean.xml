@@ -71,6 +71,7 @@
                 android:paddingBottom="10dp"
                 android:text="가마솥한방삼계탕"/>
             <Button
+                android:id="@+id/btn2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -80,6 +81,7 @@
                 android:paddingBottom="10dp"
                 android:text="강릉형제장칼국수"/>
             <Button
+                android:id="@+id/btn3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -89,6 +91,7 @@
                 android:paddingBottom="10dp"
                 android:text="강창구찹쌀순대 신림점"/>
             <Button
+                android:id="@+id/btn4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -98,6 +101,7 @@
                 android:paddingBottom="10dp"
                 android:text="개성진찹쌀순대 신림점"/>
             <Button
+                android:id="@+id/btn5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -107,6 +111,7 @@
                 android:paddingBottom="10dp"
                 android:text="계경순대국 신림고시촌점"/>
             <Button
+                android:id="@+id/btn6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"

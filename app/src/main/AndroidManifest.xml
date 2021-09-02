@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="kr.hs.emirim.w2038.android_project">
-    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
@@ -10,10 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_Project">
+        <activity android:name=".Korean2"></activity>
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBBOqaea3VL8HBEGEFInoC1XvKup7m2Sck" />
-        <activity android:name=".Korean1"></activity>
+
+        <activity android:name=".Korean1" />
         <activity android:name=".Fusion" />
         <activity android:name=".Lunchbox" />
         <activity android:name=".Fastfood" />
