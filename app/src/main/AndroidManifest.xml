@@ -12,7 +12,7 @@
         android:theme="@style/Theme.Android_Project">
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAi6yxJCy9KAErWLqCCnCNC8LIrXb_yhlw" />
+            android:value="AIzaSyBBOqaea3VL8HBEGEFInoC1XvKup7m2Sck" />
         <activity android:name=".Korean1"></activity>
         <activity android:name=".Fusion" />
         <activity android:name=".Lunchbox" />
