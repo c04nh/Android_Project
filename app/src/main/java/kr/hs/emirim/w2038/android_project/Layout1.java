@@ -1,15 +1,20 @@
 package kr.hs.emirim.w2038.android_project;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toolbar;
 
 public class Layout1 extends AppCompatActivity {
     Button korean, snack, japanese, chinese, western, etc, chicken, pizza, dessert, fastfood, lunchbox, fusion;
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,6 +44,7 @@ public class Layout1 extends AppCompatActivity {
         fastfood.setOnClickListener(btnListener);
         lunchbox.setOnClickListener(btnListener);
         fusion.setOnClickListener(btnListener);
+
     }
     View.OnClickListener btnListener = new View.OnClickListener() {
         @Override

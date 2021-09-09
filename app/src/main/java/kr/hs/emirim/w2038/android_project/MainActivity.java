@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Intent intent = new Intent(this, Splash.class);
+        startActivity(intent);
         btnStart = findViewById(R.id.btn_start);
         btnLogin = findViewById(R.id.btn_login);
         btnCreateAccount = findViewById(R.id.btn_create_account);
