@@ -30,15 +30,6 @@
             android:padding="15dp"
             android:layout_centerHorizontal="true"
             android:textSize="20dp"/>
-        <Button
-            android:id="@+id/account"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:layout_marginRight="5dp"
-            android:backgroundTint="#E7FF71"
-            android:drawableTop="@drawable/imagesize"/>
     </RelativeLayout>
     <TextView
         android:layout_width="wrap_content"
