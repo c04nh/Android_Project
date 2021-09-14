@@ -1,13 +1,16 @@
 package kr.hs.emirim.w2038.android_project;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ViewFlipper;
+import androidx.appcompat.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
     Button korean, snack, japanese, chinese, western, etc, chicken, pizza, dessert, fastfood, lunchbox, fusion;
@@ -17,6 +20,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
+        getSupportActionBar().setTitle("고시촌에서 뭐 먹지?");
+
         Intent intent = new Intent(this, Splash.class);
         startActivity(intent);
         v_fllipper = findViewById(R.id.image_slide);
@@ -109,9 +117,20 @@ public class MainActivity extends AppCompatActivity {
                     break;
 
             }
-
-
-
         }
     };
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case android.R.id.home:{
+
+                Intent intent = new Intent(getApplicationContext(),Korean.class);
+                startActivity(intent);
+
+
+                return true;
+            }
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
 }
