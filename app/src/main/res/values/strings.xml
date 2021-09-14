@@ -8,9 +8,9 @@
     <string name="f5">양식</string>
     <string name="f6">기타</string>
     <string name="f7">치킨</string>
-    <string name="f8">카페, 디저트</string>
-    <string name="f9">버거, 토스트</string>
+    <string name="f8">카페,\n디저트</string>
+    <string name="f9">버거,\n토스트</string>
     <string name="f10">도시락</string>
-    <string name="f11">퓨전음식</string>
+    <string name="f11">퓨전\n음식</string>
     <string name="f12">피자</string>
 </resources>
