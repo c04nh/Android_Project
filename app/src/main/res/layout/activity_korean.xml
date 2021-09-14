@@ -8,37 +8,18 @@
     android:background="#effea4"
     android:orientation="vertical"
     tools:context=".Korean">
-    <RelativeLayout
-        android:layout_width="match_parent"
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/next_toolbar"
+        android:layout_width="409dp"
         android:layout_height="wrap_content"
-        android:background="#E7FF71">
-        <Button
-            android:id="@+id/back"
-            android:layout_width="50dp"
-            android:layout_height="wrap_content"
-            android:text="◀"
-            android:backgroundTint="#E7FF71"
-            android:textSize="20dp"
-            android:layout_centerVertical="true"
-            android:textColor="#646262"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="고시촌먹거리"
-            android:fontFamily="@font/typo_ssangmundongb"
-            android:textColor="#8C8C8C"
-            android:padding="15dp"
-            android:layout_centerHorizontal="true"
-            android:textSize="20dp"/>
-        <Button
-            android:id="@+id/account"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:layout_marginRight="5dp"
-            android:backgroundTint="#E7FF71"/>
-    </RelativeLayout>
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -832,4 +813,5 @@
                 android:text="황해도빈대떡"/>
         </LinearLayout>
     </ScrollView>
+
 </LinearLayout>
