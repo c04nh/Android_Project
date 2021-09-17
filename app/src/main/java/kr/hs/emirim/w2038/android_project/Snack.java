@@ -1,27 +1,35 @@
 package kr.hs.emirim.w2038.android_project;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
 public class Snack extends AppCompatActivity {
-    Button back;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_snack);
 
-        back = findViewById(R.id.back);
-
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Snack.this, Layout1.class);
-                startActivity(intent);
+        Toolbar toolbar = findViewById(R.id.next_toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);//뒤로가기
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+        toolbar.setBackgroundColor(Color.rgb(231, 255, 113));
+        toolbar.setTitleTextColor(Color.rgb(100, 98, 98));
+    }
+    public boolean onOptionsItemSelected(MenuItem item){
+        switch (item.getItemId()){
+            case android.R.id.home: {
+                finish();
+                return true;
             }
-        });
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

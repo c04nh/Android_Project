@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(false);
-        getSupportActionBar().setTitle("고시촌에서 뭐 먹지?");
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
 
         Intent intent = new Intent(this, Splash.class);
         startActivity(intent);

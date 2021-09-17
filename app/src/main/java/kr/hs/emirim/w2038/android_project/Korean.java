@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -22,13 +23,15 @@ public class Korean extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.next_toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);//뒤로가기
-        getSupportActionBar().setTitle("한식");
-
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+        toolbar.setBackgroundColor(Color.rgb(231, 255, 113));
+        toolbar.setTitleTextColor(Color.rgb(100, 98, 98));
 
         btn1 = findViewById(R.id.btn1);
         btn2 = findViewById(R.id.btn2);
 
         btn1.setOnClickListener(btnListener);
+        btn2.setOnClickListener(btnListener);
 
     }
     public boolean onOptionsItemSelected(MenuItem item){

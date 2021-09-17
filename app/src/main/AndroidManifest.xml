@@ -31,7 +31,6 @@
         <activity android:name=".Japanese" />
         <activity android:name=".Snack" />
         <activity android:name=".Korean" />
-        <activity android:name=".Layout1" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
