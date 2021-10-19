@@ -21,7 +21,6 @@
     </style>
 
     <style name="Toolbar.Button.Navigation.Tinted" parent="Widget.AppCompat.Toolbar.Button.Navigation">
-        <item name="tint">#8C8C8C</item>
     </style>
     <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
         <item name="android:fontFamily">@font/typo_ssangmundongb</item>

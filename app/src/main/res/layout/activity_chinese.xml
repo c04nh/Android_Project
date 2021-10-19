@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
-    android:background="#effea4"
+    android:background="@color/back"
     android:orientation="vertical"
     tools:context=".Korean">
     <androidx.appcompat.widget.Toolbar
@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
         android:layout_marginLeft="1dp"
-        android:background="#E7FF71"
+        android:backgroundTint="@color/toolbar"
         android:minHeight="?attr/actionBarSize"
         android:theme="@style/ToolbarTheme"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,9 +35,8 @@
         android:layout_marginTop="28dp"
         android:layout_marginBottom="18dp"
         android:fontFamily="@font/typo_ssangmundongb"
-        android:textSize="20dp"
-        android:textColor="#5F5F5E"
-        android:text="@string/f4"/>
+        android:textSize="25dp"
+        android:text="@string/f5"/>
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -53,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="리얼안심탕수육 봉천점"/>
@@ -62,7 +61,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="만리향"/>
@@ -71,7 +70,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="사랑마라탕"/>
@@ -80,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="성빈각"/>
@@ -89,7 +88,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="수해복마라탕 서울대점"/>
@@ -98,7 +97,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="신대성각"/>
@@ -107,7 +106,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="신림왕꼬치"/>
@@ -116,7 +115,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="쏙만두"/>
@@ -125,7 +124,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="양자강"/>
@@ -134,7 +133,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="진 마라탕"/>
@@ -143,7 +142,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="짜이팅"/>
@@ -152,7 +151,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="탑짜장 서울대점"/>
@@ -161,7 +160,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="홍오로"/>
@@ -170,7 +169,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="홍콩반점 0410 신림고시촌점"/>

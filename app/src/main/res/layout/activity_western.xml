@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
-    android:background="#effea4"
+    android:background="@color/back"
     android:orientation="vertical"
     tools:context=".Korean">
     <androidx.appcompat.widget.Toolbar
@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
         android:layout_marginLeft="1dp"
-        android:background="#E7FF71"
+        android:backgroundTint="@color/toolbar"
         android:minHeight="?attr/actionBarSize"
         android:theme="@style/ToolbarTheme"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,8 +36,7 @@
         android:layout_marginBottom="18dp"
         android:fontFamily="@font/typo_ssangmundongb"
         android:textSize="20dp"
-        android:textColor="#5F5F5E"
-        android:text="@string/f5"/>
+        android:text="@string/f4"/>
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -53,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="안다미로1514"/>
@@ -62,7 +61,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="이름없는파스타 대학동점"/>

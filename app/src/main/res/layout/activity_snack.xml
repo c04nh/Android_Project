@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
-    android:background="#effea4"
+    android:background="@color/back"
     android:orientation="vertical"
     tools:context=".Korean">
     <androidx.appcompat.widget.Toolbar
@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
         android:layout_marginLeft="1dp"
-        android:background="#E7FF71"
+        android:backgroundTint="@color/toolbar"
         android:minHeight="?attr/actionBarSize"
         android:theme="@style/ToolbarTheme"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,8 +35,7 @@
         android:layout_marginTop="28dp"
         android:layout_marginBottom="18dp"
         android:fontFamily="@font/typo_ssangmundongb"
-        android:textSize="20dp"
-        android:textColor="#5F5F5E"
+        android:textSize="25dp"
         android:text="@string/f2"/>
     <ScrollView
         android:layout_width="match_parent"
@@ -53,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="김가네 서울대점"/>
@@ -62,7 +61,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="김말다 신림점"/>
@@ -71,7 +70,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="내친구김밥"/>
@@ -80,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="동대문엽기떡볶이 신림녹두점"/>
@@ -89,7 +88,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="떡본김에 분식"/>
@@ -98,7 +97,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="롤앤밥스"/>
@@ -107,7 +106,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="먹깨비김밥만두"/>
@@ -116,7 +115,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="베스트 버거 하우스"/>
@@ -125,7 +124,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="빠사삭튀김포차"/>
@@ -134,7 +133,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="빨봉분식 서울대점"/>
@@ -143,7 +142,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="성호분식"/>
@@ -152,7 +151,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="신전떡볶이 신림녹두점"/>
@@ -161,7 +160,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="신참떡볶이 신림녹두점"/>
@@ -170,7 +169,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="싼타떡볶이 봉천점"/>
@@ -179,7 +178,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="일미분식"/>
@@ -188,7 +187,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="장우동 서울대점"/>
@@ -197,7 +196,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="죠스떡볶이 신림녹두점"/>
@@ -206,7 +205,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="테마분식"/>
@@ -215,7 +214,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="토마토김밥 대학동점"/>
@@ -224,7 +223,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="포도나무 김밥"/>

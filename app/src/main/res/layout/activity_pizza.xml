@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
-    android:background="#effea4"
+    android:background="@color/back"
     android:orientation="vertical"
     tools:context=".Korean">
     <androidx.appcompat.widget.Toolbar
@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
         android:layout_marginLeft="1dp"
-        android:background="#E7FF71"
+        android:backgroundTint="@color/toolbar"
         android:minHeight="?attr/actionBarSize"
         android:theme="@style/ToolbarTheme"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,8 +35,7 @@
         android:layout_marginTop="28dp"
         android:layout_marginBottom="18dp"
         android:fontFamily="@font/typo_ssangmundongb"
-        android:textSize="20dp"
-        android:textColor="#5F5F5E"
+        android:textSize="25dp"
         android:text="@string/f12"/>
     <ScrollView
         android:layout_width="match_parent"
@@ -53,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="갤럭시피자"/>
@@ -62,7 +61,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="고피자 서울대점"/>
@@ -71,7 +70,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="나폴리네화덕피자"/>
@@ -80,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="도미노피자 신림점"/>
@@ -89,7 +88,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="레코드피자"/>
@@ -98,7 +97,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="엘노핌피자 본점"/>
@@ -107,7 +106,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="킹스타피자 녹두거리점"/>
@@ -116,7 +115,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
                 android:textSize="25dp"
-                android:backgroundTint="#B5EA77"
+                android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="피자스쿨 신림9동점"/>

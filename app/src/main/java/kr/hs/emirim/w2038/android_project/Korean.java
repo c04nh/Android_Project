@@ -13,7 +13,7 @@ import android.widget.Button;
 import androidx.appcompat.widget.Toolbar;
 
 public class Korean extends AppCompatActivity {
-    Button btn1, btn2;
+    Button btn1, btn2, btn3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,9 +29,11 @@ public class Korean extends AppCompatActivity {
 
         btn1 = findViewById(R.id.btn1);
         btn2 = findViewById(R.id.btn2);
+        btn3 = findViewById(R.id.btn3);
 
         btn1.setOnClickListener(btnListener);
         btn2.setOnClickListener(btnListener);
+        btn3.setOnClickListener(btnListener);
 
     }
     public boolean onOptionsItemSelected(MenuItem item){
@@ -54,6 +56,10 @@ public class Korean extends AppCompatActivity {
                     break;
                 case R.id.btn2:
                     intent = new Intent(Korean.this, Korean2.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn3:
+                    intent = new Intent(Korean.this, Korean3.class);
                     startActivity(intent);
                     break;
             }

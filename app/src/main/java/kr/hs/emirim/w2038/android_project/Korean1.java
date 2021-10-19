@@ -66,7 +66,7 @@ public class Korean1 extends AppCompatActivity implements OnMapReadyCallback{
         markerOptions.title("가마솥한방삼계탕");
         markerOptions.snippet("백숙, 삼계탕");
         mMap.addMarker(markerOptions);
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 10));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 17));
 //        googleMap.addMarker(new MarkerOptions().position(location).title("가마솥한방삼계탕"));
     }
 
