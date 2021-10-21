@@ -3,16 +3,10 @@ package kr.hs.emirim.w2038.android_project;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import android.content.Intent;
 import android.graphics.Color;
-import android.graphics.Paint;
 import android.os.Bundle;
-import android.text.Html;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
-import android.net.Uri;
-import android.widget.TextView;
+
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -20,18 +14,14 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class Korean4 extends AppCompatActivity implements OnMapReadyCallback{
+public class Korean06 extends AppCompatActivity implements OnMapReadyCallback{
 
     private GoogleMap mMap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_korean4);
-
-        TextView call = findViewById(R.id.call);
-
-        call.setOnClickListener(tvListener);
+        setContentView(R.layout.activity_korean06);
 
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
@@ -59,24 +49,14 @@ public class Korean4 extends AppCompatActivity implements OnMapReadyCallback{
     public void onMapReady(final GoogleMap googleMap) {
         mMap = googleMap;
 
-        LatLng location = new LatLng(37.4704042, 126.9365782);
+        LatLng location = new LatLng(37.4661048, 126.9369339);
 
         MarkerOptions markerOptions = new MarkerOptions();
         markerOptions.position(location);
-        markerOptions.title("개성진찹쌀순대 신림점");
-        markerOptions.snippet("순대, 순댓국");
+        markerOptions.title("고시칼국수냉면2호점");
+        markerOptions.snippet("칼국수, 냉면");
         mMap.addMarker(markerOptions);
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 17));
-//        googleMap.addMarker(new MarkerOptions().position(location).title("가마솥한방삼계탕"));
     }
 
-
-    View.OnClickListener tvListener = new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            Uri uri = Uri.parse("tel:028765455");
-            Intent intent = new Intent(Intent.ACTION_DIAL, uri);
-            startActivity(intent);
-        }
-    };
 }

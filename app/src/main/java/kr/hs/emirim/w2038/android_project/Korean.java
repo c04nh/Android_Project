@@ -67,15 +67,15 @@ public class Korean extends AppCompatActivity {
                     startActivity(intent);
                     break;
                 case R.id.btn4:
-                    intent = new Intent(Korean.this, Korean4.class);
+                    intent = new Intent(Korean.this, Korean04.class);
                     startActivity(intent);
                     break;
                 case R.id.btn5:
-                    intent = new Intent(Korean.this, Korean5.class);
+                    intent = new Intent(Korean.this, Korean05.class);
                     startActivity(intent);
                     break;
                 case R.id.btn6:
-                    intent = new Intent(Korean.this, Korean6.class);
+                    intent = new Intent(Korean.this, Korean06.class);
                     startActivity(intent);
                     break;
             }
