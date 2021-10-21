@@ -40,9 +40,6 @@ public class Korean extends AppCompatActivity {
         btn4.setOnClickListener(btnListener);
         btn5.setOnClickListener(btnListener);
         btn6.setOnClickListener(btnListener);
-        btn7.setOnClickListener(btnListener);
-        btn8.setOnClickListener(btnListener);
-        btn9.setOnClickListener(btnListener);
 
     }
     public boolean onOptionsItemSelected(MenuItem item){
@@ -77,6 +74,10 @@ public class Korean extends AppCompatActivity {
                     break;
                 case R.id.btn5:
                     intent = new Intent(Korean.this, Korean5.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn6:
+                    intent = new Intent(Korean.this, Korean6.class);
                     startActivity(intent);
                     break;
             }
