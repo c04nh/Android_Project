@@ -11,15 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_main_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_Project">
-        <activity android:name=".Korean3"></activity>
+        <activity android:name=".Korean03"></activity>
         <activity android:name=".Splash" />
-        <activity android:name=".Korean2" />
+        <activity android:name=".Korean02" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBBOqaea3VL8HBEGEFInoC1XvKup7m2Sck" />
 
-        <activity android:name=".Korean1" />
+        <activity android:name=".Korean01" />
         <activity android:name=".Fusion" />
         <activity android:name=".Lunchbox" />
         <activity android:name=".Fastfood" />
