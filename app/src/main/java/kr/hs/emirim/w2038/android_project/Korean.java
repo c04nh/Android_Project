@@ -10,8 +10,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-import androidx.appcompat.widget.Toolbar;
-
 public class Korean extends AppCompatActivity {
     Button btn1, btn2, btn3;
     @Override
@@ -51,15 +49,15 @@ public class Korean extends AppCompatActivity {
             Intent intent;
             switch (v.getId()){
                 case R.id.btn1:
-                    intent = new Intent(Korean.this, Korean1.class);
+                    intent = new Intent(Korean.this, Korean01.class);
                     startActivity(intent);
                     break;
                 case R.id.btn2:
-                    intent = new Intent(Korean.this, Korean2.class);
+                    intent = new Intent(Korean.this, Korean02.class);
                     startActivity(intent);
                     break;
                 case R.id.btn3:
-                    intent = new Intent(Korean.this, Korean3.class);
+                    intent = new Intent(Korean.this, Korean03.class);
                     startActivity(intent);
                     break;
             }

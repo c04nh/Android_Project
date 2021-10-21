@@ -17,14 +17,14 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class Korean3 extends AppCompatActivity implements OnMapReadyCallback{
+public class Korean01 extends AppCompatActivity implements OnMapReadyCallback{
 
     private GoogleMap mMap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_korean3);
+        setContentView(R.layout.activity_korean01);
 
         TextView call = findViewById(R.id.call);
 
@@ -56,21 +56,22 @@ public class Korean3 extends AppCompatActivity implements OnMapReadyCallback{
     public void onMapReady(final GoogleMap googleMap) {
         mMap = googleMap;
 
-        LatLng location = new LatLng(37.4697086, 126.9339732);
+        LatLng location = new LatLng(37.469181, 126.9342485);
 
         MarkerOptions markerOptions = new MarkerOptions();
         markerOptions.position(location);
-        markerOptions.title("강창구찹쌀순대 신림점");
-        markerOptions.snippet("순대, 순댓국");
+        markerOptions.title("가마솥한방삼계탕");
+        markerOptions.snippet("백숙, 삼계탕");
         mMap.addMarker(markerOptions);
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 17));
+//        googleMap.addMarker(new MarkerOptions().position(location).title("가마솥한방삼계탕"));
     }
 
 
     View.OnClickListener tvListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            Uri uri = Uri.parse("tel:028839871");
+            Uri uri = Uri.parse("tel:028787455");
             Intent intent = new Intent(Intent.ACTION_DIAL, uri);
             startActivity(intent);
         }
