@@ -11,7 +11,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class Korean extends AppCompatActivity {
-    Button btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9;
+    Button btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btn10, btn11, btn12;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +31,12 @@ public class Korean extends AppCompatActivity {
         btn4 = findViewById(R.id.btn4);
         btn5 = findViewById(R.id.btn5);
         btn6 = findViewById(R.id.btn6);
+        btn7 = findViewById(R.id.btn7);
+        btn8 = findViewById(R.id.btn8);
+        btn9 = findViewById(R.id.btn9);
+        btn10 = findViewById(R.id.btn10);
+        btn11 = findViewById(R.id.btn11);
+        btn12 = findViewById(R.id.btn12);
 
         btn1.setOnClickListener(btnListener);
         btn2.setOnClickListener(btnListener);
@@ -38,6 +44,12 @@ public class Korean extends AppCompatActivity {
         btn4.setOnClickListener(btnListener);
         btn5.setOnClickListener(btnListener);
         btn6.setOnClickListener(btnListener);
+        btn7.setOnClickListener(btnListener);
+        btn8.setOnClickListener(btnListener);
+        btn9.setOnClickListener(btnListener);
+        btn10.setOnClickListener(btnListener);
+        btn11.setOnClickListener(btnListener);
+        btn12.setOnClickListener(btnListener);
 
     }
     public boolean onOptionsItemSelected(MenuItem item){
@@ -80,6 +92,26 @@ public class Korean extends AppCompatActivity {
                     break;
                 case R.id.btn7:
                     intent = new Intent(Korean.this, Korean07.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn8:
+                    intent = new Intent(Korean.this, Korean08.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn9:
+                    intent = new Intent(Korean.this, Korean09.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn10:
+                    intent = new Intent(Korean.this, Korean10.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn11:
+                    intent = new Intent(Korean.this, Korean11.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn12:
+                    intent = new Intent(Korean.this, Korean12.class);
                     startActivity(intent);
                     break;
             }
