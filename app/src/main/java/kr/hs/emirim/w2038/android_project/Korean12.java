@@ -17,7 +17,7 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class Korean11 extends AppCompatActivity implements OnMapReadyCallback{
+public class Korean12 extends AppCompatActivity implements OnMapReadyCallback{
 
     private GoogleMap mMap;
 
@@ -56,12 +56,12 @@ public class Korean11 extends AppCompatActivity implements OnMapReadyCallback{
     public void onMapReady(final GoogleMap googleMap) {
         mMap = googleMap;
 
-        LatLng location = new LatLng(37.4705253, 126.8668529);
+        LatLng location = new LatLng(37.4697086, 126.9339732);
 
         MarkerOptions markerOptions = new MarkerOptions();
         markerOptions.position(location);
-        markerOptions.title("녹두설농탕");
-        markerOptions.snippet("곰탕, 설렁탕");
+        markerOptions.title("다락원");
+        markerOptions.snippet("한식");
         mMap.addMarker(markerOptions);
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 17));
     }
@@ -70,7 +70,7 @@ public class Korean11 extends AppCompatActivity implements OnMapReadyCallback{
     View.OnClickListener tvListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            Uri uri = Uri.parse("tel:028832988");
+            Uri uri = Uri.parse("tel:050714118021");
             Intent intent = new Intent(Intent.ACTION_DIAL, uri);
             startActivity(intent);
         }
