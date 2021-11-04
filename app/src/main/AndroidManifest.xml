@@ -11,9 +11,6 @@
         android:roundIcon="@mipmap/ic_launcher_main_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_Project">
-        <activity android:name=".Korean40"></activity>
-        <activity android:name=".Korean39" />
-        <activity android:name=".Korean38" />
         <activity android:name=".Korean35" />
         <activity android:name=".Korean34" />
         <activity android:name=".Korean33" />
@@ -30,7 +27,7 @@
         <activity android:name=".Korean22" />
         <activity android:name=".Korean21" />
         <activity android:name=".Korean20" />
-        <activity android:name=".Korean19" />
+        <activity android:name=".Korean19"></activity>
         <activity android:name=".Korean18" />
         <activity android:name=".Korean17" />
         <activity android:name=".Korean16" />
