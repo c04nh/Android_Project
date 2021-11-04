@@ -24,7 +24,7 @@ public class Korean10 extends AppCompatActivity implements OnMapReadyCallback{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_korean03);
+        setContentView(R.layout.activity_korean10);
 
         TextView call = findViewById(R.id.call);
 
@@ -56,12 +56,12 @@ public class Korean10 extends AppCompatActivity implements OnMapReadyCallback{
     public void onMapReady(final GoogleMap googleMap) {
         mMap = googleMap;
 
-        LatLng location = new LatLng(37.4797851, 126.8148696);
+        LatLng location = new LatLng(37.4685409, 126.932493);
 
         MarkerOptions markerOptions = new MarkerOptions();
         markerOptions.position(location);
         markerOptions.title("김충기꽃삼겹 신림점");
-        markerOptions.snippet("육류,고기요리");
+        markerOptions.snippet("육류, 고기요리");
         mMap.addMarker(markerOptions);
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 17));
     }
