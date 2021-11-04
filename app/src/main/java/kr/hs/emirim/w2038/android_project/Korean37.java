@@ -24,7 +24,7 @@ public class Korean37 extends AppCompatActivity implements OnMapReadyCallback{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_korean09);
+        setContentView(R.layout.activity_korean37);
 
         TextView call = findViewById(R.id.call);
 
