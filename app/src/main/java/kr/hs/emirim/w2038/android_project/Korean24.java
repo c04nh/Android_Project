@@ -26,10 +26,6 @@ public class Korean24 extends AppCompatActivity implements OnMapReadyCallback{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_korean24);
 
-        TextView call = findViewById(R.id.call);
-
-        call.setOnClickListener(tvListener);
-
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
 
@@ -65,14 +61,4 @@ public class Korean24 extends AppCompatActivity implements OnMapReadyCallback{
         mMap.addMarker(markerOptions);
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 17));
     }
-
-
-    View.OnClickListener tvListener = new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            Uri uri = Uri.parse("tel:");
-            Intent intent = new Intent(Intent.ACTION_DIAL, uri);
-            startActivity(intent);
-        }
-    };
 }
