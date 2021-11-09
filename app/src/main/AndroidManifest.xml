@@ -11,7 +11,16 @@
         android:roundIcon="@mipmap/ic_launcher_main_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_Project">
-        <activity android:name=".Korean41"></activity>
+        <activity android:name=".Korean50"></activity>
+        <activity android:name=".Korean49" />
+        <activity android:name=".Korean48" />
+        <activity android:name=".Korean47" />
+        <activity android:name=".Korean46" />
+        <activity android:name=".Korean45" />
+        <activity android:name=".Korean44" />
+        <activity android:name=".Korean43" />
+        <activity android:name=".Korean42" />
+        <activity android:name=".Korean41" />
         <activity android:name=".Korean40" />
         <activity android:name=".Korean39" />
         <activity android:name=".Korean38" />

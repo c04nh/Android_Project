@@ -17,14 +17,14 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class Korean41 extends AppCompatActivity implements OnMapReadyCallback{
+public class Korean48 extends AppCompatActivity implements OnMapReadyCallback{
 
     private GoogleMap mMap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_korean41);
+        setContentView(R.layout.activity_korean48);
 
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
@@ -52,14 +52,15 @@ public class Korean41 extends AppCompatActivity implements OnMapReadyCallback{
     public void onMapReady(final GoogleMap googleMap) {
         mMap = googleMap;
 
-        LatLng location = new LatLng(37.4695689,126.9255596);
+        LatLng location = new LatLng(37.4696937,126.9333279);
 
         MarkerOptions markerOptions = new MarkerOptions();
         markerOptions.position(location);
-        markerOptions.title("봄");
-        markerOptions.snippet("한식");
+        markerOptions.title("새맛고시부페");
+        markerOptions.snippet("한식뷔페");
         mMap.addMarker(markerOptions);
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 17));
 //        googleMap.addMarker(new MarkerOptions().position(location).title("가마솥한방삼계탕"));
     }
+
 }
