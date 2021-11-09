@@ -7,7 +7,7 @@
     android:gravity="center_horizontal"
     android:background="@color/back"
     android:orientation="vertical"
-    tools:context=".Korean37">
+    tools:context=".Korean43">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/next_toolbar"
         android:layout_width="match_parent"
@@ -37,7 +37,7 @@
         android:fontFamily="@font/typo_ssangmundongb"
         android:textSize="33dp"
         android:textColor="@color/name"
-        android:text="백채김치찌개"/>
+        android:text="사계절청보리밥"/>
     <TextView
         android:id="@+id/call"
         android:layout_width="wrap_content"
@@ -45,27 +45,27 @@
         android:layout_gravity="center_horizontal"
         android:fontFamily="@font/typo_ssangmundongb"
         android:layout_marginBottom="5dp"
-        android:text="0507-1333-3620"/>
+        android:text="02-877-3800"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:fontFamily="@font/typo_ssangmundongb"
         android:layout_marginBottom="5dp"
-        android:text="서울 관악구 호암로24길 22"/>
+        android:text="서울 관악구 호암로26가길 4"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:fontFamily="@font/typo_ssangmundongb"
         android:layout_marginBottom="5dp"
-        android:text="매일 11:00 - 21:00"/>
+        android:text="매일 10:00 - 20:00"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:fontFamily="@font/typo_ssangmundongb"
-        android:text="라스트오더 20시 30분"/>
+        android:text="매주 일요일 휴무"/>
     <fragment
         android:layout_width="match_parent"
         android:layout_height="match_parent"
