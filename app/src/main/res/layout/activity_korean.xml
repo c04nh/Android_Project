@@ -377,7 +377,7 @@
                 android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:text="미스터보쌈5379 녹두거리점"/>
+                android:text="미스터보쌈5379\n녹두거리점"/>
             <Button
                 android:id="@+id/btn34"
                 android:layout_width="match_parent"
