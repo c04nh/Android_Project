@@ -56,7 +56,7 @@ public class Korean17 extends AppCompatActivity implements OnMapReadyCallback{
     public void onMapReady(final GoogleMap googleMap) {
         mMap = googleMap;
 
-        LatLng location = new LatLng(37.4690565, 126.9319134);
+        LatLng location = new LatLng(37.4690565,126.9312139);
 
         MarkerOptions markerOptions = new MarkerOptions();
         markerOptions.position(location);

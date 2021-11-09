@@ -45,14 +45,14 @@
         android:layout_gravity="center_horizontal"
         android:fontFamily="@font/typo_ssangmundongb"
         android:layout_marginBottom="5dp"
-        android:text="0507-1315-1205"/>
+        android:text="0507-1333-3620"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:fontFamily="@font/typo_ssangmundongb"
         android:layout_marginBottom="5dp"
-        android:text="서울 관악구 보라매로 7 1층"/>
+        android:text="서울 관악구 호암로24길 22"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
