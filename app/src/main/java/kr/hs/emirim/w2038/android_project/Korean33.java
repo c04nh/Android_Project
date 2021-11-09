@@ -60,7 +60,7 @@ public class Korean33 extends AppCompatActivity implements OnMapReadyCallback{
 
         MarkerOptions markerOptions = new MarkerOptions();
         markerOptions.position(location);
-        markerOptions.title("미스터보쌈5379 녹두거리점");
+        markerOptions.title("미스터보쌈5379\n녹두거리점");
         markerOptions.snippet("족발, 보쌈");
         mMap.addMarker(markerOptions);
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 17));

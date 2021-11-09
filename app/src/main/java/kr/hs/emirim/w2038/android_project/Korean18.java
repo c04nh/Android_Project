@@ -56,11 +56,11 @@ public class Korean18 extends AppCompatActivity implements OnMapReadyCallback{
     public void onMapReady(final GoogleMap googleMap) {
         mMap = googleMap;
 
-        LatLng location = new LatLng(37.4696734, 126.9367833);
+        LatLng location = new LatLng(37.4696734, 126.9367886);
 
         MarkerOptions markerOptions = new MarkerOptions();
         markerOptions.position(location);
-        markerOptions.title("더진국수육국밥 녹두거리점");
+        markerOptions.title("더진국수육국밥\n녹두거리점");
         markerOptions.snippet("국밥");
         mMap.addMarker(markerOptions);
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 17));

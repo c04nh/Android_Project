@@ -207,7 +207,7 @@
                 android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:text="담소소사골순대육개장 서울대점"/>
+                android:text="담소소사골순대육개장\n서울대점"/>
             <Button
                 android:id="@+id/btn17"
                 android:layout_width="match_parent"
@@ -227,7 +227,7 @@
                 android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:text="더진국수육국밥 녹두거리점"/>
+                android:text="더진국수육국밥\n녹두거리점"/>
             <Button
                 android:id="@+id/btn19"
                 android:layout_width="match_parent"
@@ -377,7 +377,7 @@
                 android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:text="미스터보쌈5379 녹두거리점"/>
+                android:text="미스터보쌈5379\n녹두거리점"/>
             <Button
                 android:id="@+id/btn34"
                 android:layout_width="match_parent"

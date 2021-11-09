@@ -37,7 +37,7 @@
         android:fontFamily="@font/typo_ssangmundongb"
         android:textSize="33dp"
         android:textColor="@color/name"
-        android:text="더진국수육국밥 녹두거리점"/>
+        android:text="더진국수육국밥\n녹두거리점"/>
     <TextView
         android:id="@+id/call"
         android:layout_width="wrap_content"

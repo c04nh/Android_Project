@@ -24,7 +24,7 @@ public class Korean12 extends AppCompatActivity implements OnMapReadyCallback{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_korean11);
+        setContentView(R.layout.activity_korean12);
 
         TextView call = findViewById(R.id.call);
 
@@ -56,7 +56,7 @@ public class Korean12 extends AppCompatActivity implements OnMapReadyCallback{
     public void onMapReady(final GoogleMap googleMap) {
         mMap = googleMap;
 
-        LatLng location = new LatLng(37.4628678, 126.7774414);
+        LatLng location = new LatLng(37.4696153, 126.9334426);
 
         MarkerOptions markerOptions = new MarkerOptions();
         markerOptions.position(location);

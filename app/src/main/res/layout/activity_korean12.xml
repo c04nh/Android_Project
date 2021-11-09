@@ -7,7 +7,7 @@
     android:gravity="center_horizontal"
     android:background="@color/back"
     android:orientation="vertical"
-    tools:context=".Korean03">
+    tools:context=".Korean12">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/next_toolbar"
         android:layout_width="match_parent"
