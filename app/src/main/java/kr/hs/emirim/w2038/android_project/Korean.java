@@ -16,7 +16,10 @@ public class Korean extends AppCompatActivity {
             btn21, btn22, btn23, btn24, btn25, btn26, btn27, btn28, btn29, btn30,
             btn31, btn32, btn33, btn34, btn35, btn36, btn37, btn38, btn39, btn40,
             btn41, btn42, btn43, btn44, btn45, btn46, btn47, btn48, btn49, btn50,
-            btn51, btn52, btn53, btn54, btn55, btn56, btn57, btn58, btn59, btn60;
+            btn51, btn52, btn53, btn54, btn55, btn56, btn57, btn58, btn59, btn60,
+            btn61, btn62, btn65, btn66, btn67, btn68, btn69, btn70,
+            btn71, btn72, btn73, btn74, btn75, btn76, btn77, btn78, btn79, btn80,
+            btn81, btn82, btn83, btn85;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -90,6 +93,28 @@ public class Korean extends AppCompatActivity {
         btn58 = findViewById(R.id.btn58);
         btn59 = findViewById(R.id.btn59);
         btn60 = findViewById(R.id.btn60);
+        btn61 = findViewById(R.id.btn61);
+        btn62 = findViewById(R.id.btn62);
+        btn65 = findViewById(R.id.btn65);
+        btn66 = findViewById(R.id.btn66);
+        btn67 = findViewById(R.id.btn67);
+        btn68 = findViewById(R.id.btn68);
+        btn69 = findViewById(R.id.btn69);
+        btn70 = findViewById(R.id.btn70);
+        btn71 = findViewById(R.id.btn71);
+        btn72 = findViewById(R.id.btn72);
+        btn73 = findViewById(R.id.btn73);
+        btn74 = findViewById(R.id.btn74);
+        btn75 = findViewById(R.id.btn75);
+        btn76 = findViewById(R.id.btn76);
+        btn77 = findViewById(R.id.btn77);
+        btn78 = findViewById(R.id.btn78);
+        btn79 = findViewById(R.id.btn79);
+        btn80 = findViewById(R.id.btn80);
+        btn81 = findViewById(R.id.btn81);
+        btn82 = findViewById(R.id.btn82);
+        btn83 = findViewById(R.id.btn83);
+        btn85 = findViewById(R.id.btn85);
 
 
         btn1.setOnClickListener(btnListener);
@@ -152,6 +177,28 @@ public class Korean extends AppCompatActivity {
         btn58.setOnClickListener(btnListener);
         btn59.setOnClickListener(btnListener);
         btn60.setOnClickListener(btnListener);
+        btn61.setOnClickListener(btnListener);
+        btn62.setOnClickListener(btnListener);
+        btn65.setOnClickListener(btnListener);
+        btn66.setOnClickListener(btnListener);
+        btn67.setOnClickListener(btnListener);
+        btn68.setOnClickListener(btnListener);
+        btn69.setOnClickListener(btnListener);
+        btn70.setOnClickListener(btnListener);
+        btn71.setOnClickListener(btnListener);
+        btn72.setOnClickListener(btnListener);
+        btn73.setOnClickListener(btnListener);
+        btn74.setOnClickListener(btnListener);
+        btn75.setOnClickListener(btnListener);
+        btn76.setOnClickListener(btnListener);
+        btn77.setOnClickListener(btnListener);
+        btn78.setOnClickListener(btnListener);
+        btn79.setOnClickListener(btnListener);
+        btn80.setOnClickListener(btnListener);
+        btn81.setOnClickListener(btnListener);
+        btn82.setOnClickListener(btnListener);
+        btn83.setOnClickListener(btnListener);
+        btn85.setOnClickListener(btnListener);
 
     }
     public boolean onOptionsItemSelected(MenuItem item){
@@ -406,6 +453,94 @@ public class Korean extends AppCompatActivity {
                     break;
                 case R.id.btn60:
                     intent = new Intent(Korean.this, Korean60.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn61:
+                    intent = new Intent(Korean.this, Korean61.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn62:
+                    intent = new Intent(Korean.this, Korean62.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn65:
+                    intent = new Intent(Korean.this, Korean65.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn66:
+                    intent = new Intent(Korean.this, Korean66.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn67:
+                    intent = new Intent(Korean.this, Korean67.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn68:
+                    intent = new Intent(Korean.this, Korean68.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn69:
+                    intent = new Intent(Korean.this, Korean69.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn70:
+                    intent = new Intent(Korean.this, Korean70.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn71:
+                    intent = new Intent(Korean.this, Korean71.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn72:
+                    intent = new Intent(Korean.this, Korean72.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn73:
+                    intent = new Intent(Korean.this, Korean73.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn74:
+                    intent = new Intent(Korean.this, Korean74.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn75:
+                    intent = new Intent(Korean.this, Korean75.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn76:
+                    intent = new Intent(Korean.this, Korean76.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn77:
+                    intent = new Intent(Korean.this, Korean77.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn78:
+                    intent = new Intent(Korean.this, Korean78.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn79:
+                    intent = new Intent(Korean.this, Korean79.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn80:
+                    intent = new Intent(Korean.this, Korean80.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn81:
+                    intent = new Intent(Korean.this, Korean81.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn82:
+                    intent = new Intent(Korean.this, Korean82.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn83:
+                    intent = new Intent(Korean.this, Korean83.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn85:
+                    intent = new Intent(Korean.this, Korean85.class);
                     startActivity(intent);
                     break;
             }
