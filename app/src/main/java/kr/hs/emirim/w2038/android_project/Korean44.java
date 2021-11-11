@@ -58,6 +58,7 @@ public class Korean44 extends AppCompatActivity implements OnMapReadyCallback{
         markerOptions.position(location);
         markerOptions.title("산천");
         markerOptions.snippet("한식");
+        mMap.addMarker(markerOptions);
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 17));
 //        googleMap.addMarker(new MarkerOptions().position(location).title("가마솥한방삼계탕"));
     }
