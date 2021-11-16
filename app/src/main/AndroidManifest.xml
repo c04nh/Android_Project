@@ -11,6 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_main_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_Project">
+        <activity android:name=".Snack20"></activity>
+        <activity android:name=".Snack19" />
+        <activity android:name=".Snack18" />
+        <activity android:name=".Snack17" />
+        <activity android:name=".Snack16" />
         <activity android:name=".Snack14" />
         <activity android:name=".Snack13" />
         <activity android:name=".Snack12" />
