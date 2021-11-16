@@ -12,7 +12,7 @@ import android.widget.Button;
 
 public class Snack extends AppCompatActivity {
     Button btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btn10,
-            btn11, btn12, btn13, btn14, btn15, btn16, btn17, btn18, btn19, btn20;
+            btn11, btn12, btn13, btn14, btn16, btn17, btn18, btn19, btn20;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,7 +39,6 @@ public class Snack extends AppCompatActivity {
         btn12 = findViewById(R.id.btn12);
         btn13 = findViewById(R.id.btn13);
         btn14 = findViewById(R.id.btn14);
-        btn15 = findViewById(R.id.btn15);
         btn16 = findViewById(R.id.btn16);
         btn17 = findViewById(R.id.btn17);
         btn18 = findViewById(R.id.btn18);
@@ -60,7 +59,6 @@ public class Snack extends AppCompatActivity {
         btn12.setOnClickListener(btnListener);
         btn13.setOnClickListener(btnListener);
         btn14.setOnClickListener(btnListener);
-        btn15.setOnClickListener(btnListener);
         btn16.setOnClickListener(btnListener);
         btn17.setOnClickListener(btnListener);
         btn18.setOnClickListener(btnListener);
@@ -121,26 +119,22 @@ public class Snack extends AppCompatActivity {
                     intent = new Intent(Snack.this, Snack10.class);
                     startActivity(intent);
                     break;
-//                case R.id.btn11:
-//                    intent = new Intent(Snack.this, Snack11.class);
-//                    startActivity(intent);
-//                    break;
-//                case R.id.btn12:
-//                    intent = new Intent(Snack.this, Snack12.class);
-//                    startActivity(intent);
-//                    break;
-//                case R.id.btn13:
-//                    intent = new Intent(Snack.this, Snack13.class);
-//                    startActivity(intent);
-//                    break;
-//                case R.id.btn14:
-//                    intent = new Intent(Snack.this, Snack14.class);
-//                    startActivity(intent);
-//                    break;
-//                case R.id.btn15:
-//                    intent = new Intent(Snack.this, Snack15.class);
-//                    startActivity(intent);
-//                    break;
+                case R.id.btn11:
+                    intent = new Intent(Snack.this, Snack11.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn12:
+                    intent = new Intent(Snack.this, Snack12.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn13:
+                    intent = new Intent(Snack.this, Snack13.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn14:
+                    intent = new Intent(Snack.this, Snack14.class);
+                    startActivity(intent);
+                    break;
 //                case R.id.btn16:
 //                    intent = new Intent(Snack.this, Snack16.class);
 //                    startActivity(intent);

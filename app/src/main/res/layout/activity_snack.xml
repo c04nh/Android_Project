@@ -188,16 +188,6 @@
                 android:paddingBottom="10dp"
                 android:text="싼타떡볶이 봉천점"/>
             <Button
-                android:id="@+id/btn15"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/typo_ssangmundongb"
-                android:textSize="25dp"
-                android:backgroundTint="@color/button"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
-                android:text="일미분식"/>
-            <Button
                 android:id="@+id/btn16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
