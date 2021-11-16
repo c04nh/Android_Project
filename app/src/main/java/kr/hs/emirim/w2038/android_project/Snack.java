@@ -101,26 +101,26 @@ public class Snack extends AppCompatActivity {
                     intent = new Intent(Snack.this, Snack05.class);
                     startActivity(intent);
                     break;
-//                case R.id.btn6:
-//                    intent = new Intent(Snack.this, Snack06.class);
-//                    startActivity(intent);
-//                    break;
-//                case R.id.btn7:
-//                    intent = new Intent(Snack.this, Snack07.class);
-//                    startActivity(intent);
-//                    break;
-//                case R.id.btn8:
-//                    intent = new Intent(Snack.this, Snack08.class);
-//                    startActivity(intent);
-//                    break;
-//                case R.id.btn9:
-//                    intent = new Intent(Snack.this, Snack09.class);
-//                    startActivity(intent);
-//                    break;
-//                case R.id.btn10:
-//                    intent = new Intent(Snack.this, Snack10.class);
-//                    startActivity(intent);
-//                    break;
+                case R.id.btn6:
+                    intent = new Intent(Snack.this, Snack06.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn7:
+                    intent = new Intent(Snack.this, Snack07.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn8:
+                    intent = new Intent(Snack.this, Snack08.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn9:
+                    intent = new Intent(Snack.this, Snack09.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn10:
+                    intent = new Intent(Snack.this, Snack10.class);
+                    startActivity(intent);
+                    break;
 //                case R.id.btn11:
 //                    intent = new Intent(Snack.this, Snack11.class);
 //                    startActivity(intent);
