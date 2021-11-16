@@ -32,22 +32,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:gravity="center"
         android:layout_marginTop="28dp"
         android:layout_marginBottom="18dp"
         android:fontFamily="@font/typo_ssangmundongb"
         android:textSize="33dp"
         android:textColor="@color/name"
-        android:text="담소소사골순대육개장서울대점"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="28dp"
-        android:layout_marginBottom="18dp"
-        android:fontFamily="@font/typo_ssangmundongb"
-        android:textSize="33dp"
-        android:textColor="@color/name"
-        android:text="서울대점"/>
+        android:text="담소소사골순대육개장\n서울대점"/>
     <TextView
         android:id="@+id/call"
         android:layout_width="wrap_content"

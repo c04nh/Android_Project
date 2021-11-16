@@ -787,7 +787,7 @@
                 android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:text="탕가네소고기김치찌개서울대점"/>
+                android:text="탕가네소고기김치찌개\n서울대점"/>
             <Button
                 android:id="@+id/btn77"
                 android:layout_width="match_parent"

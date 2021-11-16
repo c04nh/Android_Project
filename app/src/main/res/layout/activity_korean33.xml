@@ -32,22 +32,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:gravity="center"
         android:layout_marginTop="28dp"
         android:layout_marginBottom="18dp"
         android:fontFamily="@font/typo_ssangmundongb"
         android:textSize="33dp"
         android:textColor="@color/name"
-        android:text="미스터보쌈5379"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="28dp"
-        android:layout_marginBottom="18dp"
-        android:fontFamily="@font/typo_ssangmundongb"
-        android:textSize="33dp"
-        android:textColor="@color/name"
-        android:text="녹두거리점"/>
+        android:text="미스터보쌈5379\n녹두거리점"/>
     <TextView
         android:id="@+id/call"
         android:layout_width="wrap_content"
