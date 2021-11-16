@@ -135,26 +135,26 @@ public class Snack extends AppCompatActivity {
                     intent = new Intent(Snack.this, Snack14.class);
                     startActivity(intent);
                     break;
-//                case R.id.btn16:
-//                    intent = new Intent(Snack.this, Snack16.class);
-//                    startActivity(intent);
-//                    break;
-//                case R.id.btn17:
-//                    intent = new Intent(Snack.this, Snack17.class);
-//                    startActivity(intent);
-//                    break;
-//                case R.id.btn18:
-//                    intent = new Intent(Snack.this, Snack18.class);
-//                    startActivity(intent);
-//                    break;
-//                case R.id.btn19:
-//                    intent = new Intent(Snack.this, Snack19.class);
-//                    startActivity(intent);
-//                    break;
-//                case R.id.btn20:
-//                    intent = new Intent(Snack.this, Snack20.class);
-//                    startActivity(intent);
-//                    break;
+                case R.id.btn16:
+                    intent = new Intent(Snack.this, Snack16.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn17:
+                    intent = new Intent(Snack.this, Snack17.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn18:
+                    intent = new Intent(Snack.this, Snack18.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn19:
+                    intent = new Intent(Snack.this, Snack19.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn20:
+                    intent = new Intent(Snack.this, Snack20.class);
+                    startActivity(intent);
+                    break;
             }
         }
     };
