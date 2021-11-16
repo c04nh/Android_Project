@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_main_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_Project">
-        <activity android:name=".Japanese20"></activity>
+        <activity android:name=".Japanese20" />
         <activity android:name=".Japanese19" />
         <activity android:name=".Japanese18" />
         <activity android:name=".Japanese17" />
