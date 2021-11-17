@@ -48,6 +48,7 @@
             android:paddingBottom="15dp"
             android:orientation="vertical">
             <Button
+                android:id="@+id/btn1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -57,6 +58,7 @@
                 android:paddingBottom="10dp"
                 android:text="가비사랑방"/>
             <Button
+                android:id="@+id/btn2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -66,6 +68,7 @@
                 android:paddingBottom="10dp"
                 android:text="구동커피"/>
             <Button
+                android:id="@+id/btn3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -75,6 +78,7 @@
                 android:paddingBottom="10dp"
                 android:text="나인디저트"/>
             <Button
+                android:id="@+id/btn4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -84,6 +88,7 @@
                 android:paddingBottom="10dp"
                 android:text="더벤티 신림녹두거리점"/>
             <Button
+                android:id="@+id/btn5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -93,6 +98,7 @@
                 android:paddingBottom="10dp"
                 android:text="디저트상점"/>
             <Button
+                android:id="@+id/btn6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -102,6 +108,7 @@
                 android:paddingBottom="10dp"
                 android:text="르호봇"/>
             <Button
+                android:id="@+id/btn7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -111,6 +118,7 @@
                 android:paddingBottom="10dp"
                 android:text="메가커피 대학점"/>
             <Button
+                android:id="@+id/btn8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -120,6 +128,7 @@
                 android:paddingBottom="10dp"
                 android:text="밀크팅"/>
             <Button
+                android:id="@+id/btn9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -129,6 +138,7 @@
                 android:paddingBottom="10dp"
                 android:text="바바플"/>
             <Button
+                android:id="@+id/btn10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -138,6 +148,7 @@
                 android:paddingBottom="10dp"
                 android:text="발루토"/>
             <Button
+                android:id="@+id/btn11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -147,6 +158,7 @@
                 android:paddingBottom="10dp"
                 android:text="베어문"/>
             <Button
+                android:id="@+id/btn12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -156,6 +168,7 @@
                 android:paddingBottom="10dp"
                 android:text="브하브"/>
             <Button
+                android:id="@+id/btn13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -165,6 +178,7 @@
                 android:paddingBottom="10dp"
                 android:text="샐러드버킷"/>
             <Button
+                android:id="@+id/btn14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -174,6 +188,7 @@
                 android:paddingBottom="10dp"
                 android:text="스마일참쌀꽈배기"/>
             <Button
+                android:id="@+id/btn15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -183,6 +198,7 @@
                 android:paddingBottom="10dp"
                 android:text="승승밀크티"/>
             <Button
+                android:id="@+id/btn16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -192,6 +208,7 @@
                 android:paddingBottom="10dp"
                 android:text="심봉사도로케 신림대학동점"/>
             <Button
+                android:id="@+id/btn17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -201,6 +218,7 @@
                 android:paddingBottom="10dp"
                 android:text="어느멋진날"/>
             <Button
+                android:id="@+id/btn18"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -210,6 +228,7 @@
                 android:paddingBottom="10dp"
                 android:text="엔젤리너스 대학동점"/>
             <Button
+                android:id="@+id/btn19"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -219,6 +238,7 @@
                 android:paddingBottom="10dp"
                 android:text="와플대학 신림녹두거리캠퍼스"/>
             <Button
+                android:id="@+id/btn20"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -228,6 +248,7 @@
                 android:paddingBottom="10dp"
                 android:text="이디야커피 신림대학동점"/>
             <Button
+                android:id="@+id/btn21"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -237,6 +258,7 @@
                 android:paddingBottom="10dp"
                 android:text="자연색"/>
             <Button
+                android:id="@+id/btn22"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -246,6 +268,7 @@
                 android:paddingBottom="10dp"
                 android:text="제이콥스 테이블"/>
             <Button
+                android:id="@+id/btn23"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -255,6 +278,7 @@
                 android:paddingBottom="10dp"
                 android:text="쥬씨 서울대녹두거리점"/>
             <Button
+                android:id="@+id/btn24"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -264,6 +288,7 @@
                 android:paddingBottom="10dp"
                 android:text="카페 나무"/>
             <Button
+                android:id="@+id/btn25"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -273,6 +298,7 @@
                 android:paddingBottom="10dp"
                 android:text="카페 마마떼"/>
             <Button
+                android:id="@+id/btn26"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -282,6 +308,7 @@
                 android:paddingBottom="10dp"
                 android:text="카페레브"/>
             <Button
+                android:id="@+id/btn27"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -291,6 +318,7 @@
                 android:paddingBottom="10dp"
                 android:text="카페보타닉"/>
             <Button
+                android:id="@+id/btn28"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -300,6 +328,7 @@
                 android:paddingBottom="10dp"
                 android:text="카페엣홈"/>
             <Button
+                android:id="@+id/btn29"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -309,6 +338,7 @@
                 android:paddingBottom="10dp"
                 android:text="카페여기"/>
             <Button
+                android:id="@+id/btn30"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -318,6 +348,7 @@
                 android:paddingBottom="10dp"
                 android:text="카페인"/>
             <Button
+                android:id="@+id/btn31"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -327,6 +358,7 @@
                 android:paddingBottom="10dp"
                 android:text="카페일기"/>
             <Button
+                android:id="@+id/btn32"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -336,6 +368,7 @@
                 android:paddingBottom="10dp"
                 android:text="칸타빌레"/>
             <Button
+                android:id="@+id/btn33"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -345,6 +378,7 @@
                 android:paddingBottom="10dp"
                 android:text="커피가달고나"/>
             <Button
+                android:id="@+id/btn34"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -354,6 +388,7 @@
                 android:paddingBottom="10dp"
                 android:text="커피마마 신림신지약국점"/>
             <Button
+                android:id="@+id/btn35"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -363,6 +398,7 @@
                 android:paddingBottom="10dp"
                 android:text="커피에반하다 신림녹두거리점"/>
             <Button
+                android:id="@+id/btn36"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -372,6 +408,7 @@
                 android:paddingBottom="10dp"
                 android:text="커피컴"/>
             <Button
+                android:id="@+id/btn37"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -381,6 +418,7 @@
                 android:paddingBottom="10dp"
                 android:text="컴포즈커피 신림대학점"/>
             <Button
+                android:id="@+id/btn38"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -389,8 +427,8 @@
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="컵오브커피 대학동점"/>
-
             <Button
+                android:id="@+id/btn39"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -399,8 +437,8 @@
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="투썸플레이스 신림녹두거리점"/>
-
             <Button
+                android:id="@+id/btn40"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -409,8 +447,8 @@
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="파리바게뜨 서울대녹두점"/>
-
             <Button
+                android:id="@+id/btn41"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
