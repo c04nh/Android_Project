@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_main_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_Project">
-        <activity android:name=".Chicken10"></activity>
+        <activity android:name=".Chicken13" />
+        <activity android:name=".Chicken11" />
+        <activity android:name=".Chicken10" />
         <activity android:name=".Chicken09" />
         <activity android:name=".Chicken08" />
         <activity android:name=".Chicken07" />

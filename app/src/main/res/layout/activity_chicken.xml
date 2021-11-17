@@ -156,17 +156,7 @@
                 android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:text="우리집닭강정신림점"/>
-            <Button
-                android:id="@+id/btn12"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/typo_ssangmundongb"
-                android:textSize="25dp"
-                android:backgroundTint="@color/button"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
-                android:text="잉치킨 대학동점"/>
+                android:text="우리집닭강정 신림점"/>
             <Button
                 android:id="@+id/btn13"
                 android:layout_width="match_parent"
@@ -177,16 +167,6 @@
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="지코바 신림1호점"/>
-            <Button
-                android:id="@+id/btn14"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/typo_ssangmundongb"
-                android:textSize="25dp"
-                android:backgroundTint="@color/button"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
-                android:text="페리카나 신림2점"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
