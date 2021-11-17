@@ -11,6 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_main_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_Project">
+        <activity android:name=".Pizza05"></activity>
+        <activity android:name=".Pizza04" />
+        <activity android:name=".Pizza03" />
+        <activity android:name=".Pizza02" />
+        <activity android:name=".Pizza01" />
         <activity android:name=".Chicken13" />
         <activity android:name=".Chicken11" />
         <activity android:name=".Chicken10" />
