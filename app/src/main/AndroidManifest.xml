@@ -11,7 +11,12 @@
         android:roundIcon="@mipmap/ic_launcher_main_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_Project">
-        <activity android:name=".Etc07"></activity>
+        <activity android:name=".Chicken05"></activity>
+        <activity android:name=".Chicken04" />
+        <activity android:name=".Chicken03" />
+        <activity android:name=".Chicken02" />
+        <activity android:name=".Chicken01" />
+        <activity android:name=".Etc07" />
         <activity android:name=".Etc06" />
         <activity android:name=".Etc05" />
         <activity android:name=".Etc04" />
