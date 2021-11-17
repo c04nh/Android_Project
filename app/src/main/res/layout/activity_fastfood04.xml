@@ -32,12 +32,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:gravity="center"
         android:layout_marginTop="28dp"
         android:layout_marginBottom="18dp"
         android:fontFamily="@font/typo_ssangmundongb"
         android:textSize="33dp"
         android:textColor="@color/name"
-        android:text="이삭토스트 신림9동서울대점"/>
+        android:text="이삭토스트\n신림9동서울대점"/>
     <TextView
         android:id="@+id/call"
         android:layout_width="wrap_content"

@@ -56,7 +56,7 @@ public class Japanese08 extends AppCompatActivity implements OnMapReadyCallback{
     public void onMapReady(final GoogleMap googleMap) {
         mMap = googleMap;
 
-        LatLng location = new LatLng(37.4677324, 126.9207904);
+        LatLng location = new LatLng(37.4687816,126.9349949);
 
         MarkerOptions markerOptions = new MarkerOptions();
         markerOptions.position(location);

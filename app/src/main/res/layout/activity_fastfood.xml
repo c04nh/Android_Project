@@ -86,7 +86,7 @@
                 android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:text="이삭토스트 신림9동서울대점"/>
+                android:text="이삭토스트\n신림9동서울대점"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
