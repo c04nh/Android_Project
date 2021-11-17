@@ -11,7 +11,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class Chinese extends AppCompatActivity {
-    Button btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btn10,
+    Button btn1, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btn10,
             btn11, btn12, btn13, btn14;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -104,22 +104,22 @@ public class Chinese extends AppCompatActivity {
                     intent = new Intent(Chinese.this, Chinese10.class);
                     startActivity(intent);
                     break;
-//                case R.id.btn11:
-//                    intent = new Intent(Chinese.this, Chinese11.class);
-//                    startActivity(intent);
-//                    break;
-//                case R.id.btn12:
-//                    intent = new Intent(Chinese.this, Chinese12.class);
-//                    startActivity(intent);
-//                    break;
-//                case R.id.btn13:
-//                    intent = new Intent(Chinese.this, Chinese13.class);
-//                    startActivity(intent);
-//                    break;
-//                case R.id.btn14:
-//                    intent = new Intent(Chinese.this, Chinese14.class);
-//                    startActivity(intent);
-//                    break;
+                case R.id.btn11:
+                    intent = new Intent(Chinese.this, Chinese11.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn12:
+                    intent = new Intent(Chinese.this, Chinese12.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn13:
+                    intent = new Intent(Chinese.this, Chinese13.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn14:
+                    intent = new Intent(Chinese.this, Chinese14.class);
+                    startActivity(intent);
+                    break;
             }
         }
     };

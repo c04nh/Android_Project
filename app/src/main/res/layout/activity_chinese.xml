@@ -176,7 +176,7 @@
                 android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:text="홍콩반점 0410 신림고시촌점"/>
+                android:text="홍콩반점 0410\n신림고시촌점"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
