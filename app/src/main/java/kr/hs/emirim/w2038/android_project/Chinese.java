@@ -84,26 +84,26 @@ public class Chinese extends AppCompatActivity {
                     intent = new Intent(Chinese.this, Chinese05.class);
                     startActivity(intent);
                     break;
-//                case R.id.btn6:
-//                    intent = new Intent(Chinese.this, Chinese06.class);
-//                    startActivity(intent);
-//                    break;
-//                case R.id.btn7:
-//                    intent = new Intent(Chinese.this, Chinese07.class);
-//                    startActivity(intent);
-//                    break;
-//                case R.id.btn8:
-//                    intent = new Intent(Chinese.this, Chinese08.class);
-//                    startActivity(intent);
-//                    break;
-//                case R.id.btn9:
-//                    intent = new Intent(Chinese.this, Chinese09.class);
-//                    startActivity(intent);
-//                    break;
-//                case R.id.btn10:
-//                    intent = new Intent(Chinese.this, Chinese10.class);
-//                    startActivity(intent);
-//                    break;
+                case R.id.btn6:
+                    intent = new Intent(Chinese.this, Chinese06.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn7:
+                    intent = new Intent(Chinese.this, Chinese07.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn8:
+                    intent = new Intent(Chinese.this, Chinese08.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn9:
+                    intent = new Intent(Chinese.this, Chinese09.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn10:
+                    intent = new Intent(Chinese.this, Chinese10.class);
+                    startActivity(intent);
+                    break;
 //                case R.id.btn11:
 //                    intent = new Intent(Chinese.this, Chinese11.class);
 //                    startActivity(intent);
