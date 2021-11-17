@@ -11,7 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_main_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_Project">
-        <activity android:name=".Fastfood04"></activity>
+        <activity android:name=".Chinese05"></activity>
+        <activity android:name=".Chinese04" />
+        <activity android:name=".Chinese03" />
+        <activity android:name=".Chinese01" />
+        <activity android:name=".Fastfood04" />
         <activity android:name=".Fastfood03" />
         <activity android:name=".Fastfood02" />
         <activity android:name=".Fastfood01" />

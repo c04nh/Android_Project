@@ -48,6 +48,7 @@
             android:paddingBottom="15dp"
             android:orientation="vertical">
             <Button
+                android:id="@+id/btn1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -57,15 +58,7 @@
                 android:paddingBottom="10dp"
                 android:text="리얼안심탕수육 봉천점"/>
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/typo_ssangmundongb"
-                android:textSize="25dp"
-                android:backgroundTint="@color/button"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
-                android:text="만리향"/>
-            <Button
+                android:id="@+id/btn3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -75,6 +68,7 @@
                 android:paddingBottom="10dp"
                 android:text="사랑마라탕"/>
             <Button
+                android:id="@+id/btn4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -84,6 +78,7 @@
                 android:paddingBottom="10dp"
                 android:text="성빈각"/>
             <Button
+                android:id="@+id/btn5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -93,6 +88,7 @@
                 android:paddingBottom="10dp"
                 android:text="수해복마라탕 서울대점"/>
             <Button
+                android:id="@+id/btn6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -102,6 +98,7 @@
                 android:paddingBottom="10dp"
                 android:text="신대성각"/>
             <Button
+                android:id="@+id/btn7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -111,6 +108,7 @@
                 android:paddingBottom="10dp"
                 android:text="신림왕꼬치"/>
             <Button
+                android:id="@+id/btn8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -120,6 +118,7 @@
                 android:paddingBottom="10dp"
                 android:text="쏙만두"/>
             <Button
+                android:id="@+id/btn9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -129,6 +128,7 @@
                 android:paddingBottom="10dp"
                 android:text="양자강"/>
             <Button
+                android:id="@+id/btn10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -138,6 +138,7 @@
                 android:paddingBottom="10dp"
                 android:text="진 마라탕"/>
             <Button
+                android:id="@+id/btn11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -147,6 +148,7 @@
                 android:paddingBottom="10dp"
                 android:text="짜이팅"/>
             <Button
+                android:id="@+id/btn12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -156,6 +158,7 @@
                 android:paddingBottom="10dp"
                 android:text="탑짜장 서울대점"/>
             <Button
+                android:id="@+id/btn13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
@@ -165,6 +168,7 @@
                 android:paddingBottom="10dp"
                 android:text="홍오로"/>
             <Button
+                android:id="@+id/btn14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/typo_ssangmundongb"
