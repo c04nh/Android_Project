@@ -186,7 +186,7 @@
                 android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:text="스마일참쌀꽈배기"/>
+                android:text="스마일찹쌀꽈배기"/>
             <Button
                 android:id="@+id/btn15"
                 android:layout_width="match_parent"
