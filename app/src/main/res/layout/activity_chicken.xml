@@ -106,7 +106,7 @@
                 android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:text="더블플레이치킨 신림1호점"/>
+                android:text="더블플레이치킨\n신림1호점"/>
             <Button
                 android:id="@+id/btn7"
                 android:layout_width="match_parent"
