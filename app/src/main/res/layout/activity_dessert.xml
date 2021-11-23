@@ -288,16 +288,6 @@
                 android:paddingBottom="10dp"
                 android:text="카페레브"/>
             <Button
-                android:id="@+id/btn27"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/typo_ssangmundongb"
-                android:textSize="25dp"
-                android:backgroundTint="@color/button"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
-                android:text="카페보타닉"/>
-            <Button
                 android:id="@+id/btn28"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

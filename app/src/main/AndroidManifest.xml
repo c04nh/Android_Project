@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_main_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_Project">
-        <activity android:name=".Dessert10"></activity>
+        <activity android:name=".Dessert28"></activity>
+        <activity android:name=".Dessert26" />
+        <activity android:name=".Dessert10" />
         <activity android:name=".Dessert08" />
         <activity android:name=".Dessert07" />
         <activity android:name=".Dessert05" />
