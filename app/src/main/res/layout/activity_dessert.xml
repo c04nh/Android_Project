@@ -98,16 +98,6 @@
                 android:paddingBottom="10dp"
                 android:text="디저트상점"/>
             <Button
-                android:id="@+id/btn6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/typo_ssangmundongb"
-                android:textSize="25dp"
-                android:backgroundTint="@color/button"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
-                android:text="르호봇"/>
-            <Button
                 android:id="@+id/btn7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -127,16 +117,6 @@
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="밀크팅"/>
-            <Button
-                android:id="@+id/btn9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/typo_ssangmundongb"
-                android:textSize="25dp"
-                android:backgroundTint="@color/button"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
-                android:text="바바플"/>
             <Button
                 android:id="@+id/btn10"
                 android:layout_width="match_parent"
