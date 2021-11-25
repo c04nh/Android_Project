@@ -406,7 +406,7 @@
                 android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:text="투썸플레이스 신림녹두거리점"/>
+                android:text="투썸플레이스\n신림녹두거리점"/>
             <Button
                 android:id="@+id/btn40"
                 android:layout_width="match_parent"
