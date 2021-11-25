@@ -186,7 +186,7 @@
                 android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:text="심봉사도로케 신림대학동점"/>
+                android:text="심봉사도로케\n신림대학동점"/>
             <Button
                 android:id="@+id/btn17"
                 android:layout_width="match_parent"
@@ -216,7 +216,7 @@
                 android:backgroundTint="@color/button"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:text="와플대학 신림녹두거리캠퍼스"/>
+                android:text="와플대학\n신림녹두거리캠퍼스"/>
             <Button
                 android:id="@+id/btn20"
                 android:layout_width="match_parent"

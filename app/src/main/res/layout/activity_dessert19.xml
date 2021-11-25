@@ -38,7 +38,7 @@
         android:fontFamily="@font/typo_ssangmundongb"
         android:textSize="33dp"
         android:textColor="@color/name"
-        android:text="와플대학 신림녹두거리캠퍼스"/>
+        android:text="와플대학\n신림녹두거리캠퍼스"/>
     <TextView
         android:id="@+id/call"
         android:layout_width="wrap_content"
