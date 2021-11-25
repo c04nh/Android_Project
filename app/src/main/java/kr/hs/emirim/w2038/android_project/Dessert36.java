@@ -17,18 +17,14 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class Dessert35 extends AppCompatActivity implements OnMapReadyCallback{
+public class Dessert36 extends AppCompatActivity implements OnMapReadyCallback{
 
     private GoogleMap mMap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dessert35);
-
-        TextView call = findViewById(R.id.call);
-
-        call.setOnClickListener(tvListener);
+        setContentView(R.layout.activity_dessert36);
 
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
@@ -56,23 +52,14 @@ public class Dessert35 extends AppCompatActivity implements OnMapReadyCallback{
     public void onMapReady(final GoogleMap googleMap) {
         mMap = googleMap;
 
-        LatLng location = new LatLng(37.4690402, 126.9335112);
+        LatLng location = new LatLng(37.4680261, 126.9421013);
 
         MarkerOptions markerOptions = new MarkerOptions();
         markerOptions.position(location);
-        markerOptions.title("커피에반하다 신림녹두거리점");
-        markerOptions.snippet("카페");
+        markerOptions.title("커피컴");
+        markerOptions.snippet("카페,디저트");
         mMap.addMarker(markerOptions);
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 17));
     }
 
-
-    View.OnClickListener tvListener = new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            Uri uri = Uri.parse("tel:028831771");
-            Intent intent = new Intent(Intent.ACTION_DIAL, uri);
-            startActivity(intent);
-        }
-    };
 }

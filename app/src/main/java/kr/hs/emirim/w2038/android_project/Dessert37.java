@@ -17,14 +17,14 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class Dessert35 extends AppCompatActivity implements OnMapReadyCallback{
+public class Dessert37 extends AppCompatActivity implements OnMapReadyCallback{
 
     private GoogleMap mMap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dessert35);
+        setContentView(R.layout.activity_dessert37);
 
         TextView call = findViewById(R.id.call);
 
@@ -56,11 +56,11 @@ public class Dessert35 extends AppCompatActivity implements OnMapReadyCallback{
     public void onMapReady(final GoogleMap googleMap) {
         mMap = googleMap;
 
-        LatLng location = new LatLng(37.4690402, 126.9335112);
+        LatLng location = new LatLng(37.4694482, 126.9326858);
 
         MarkerOptions markerOptions = new MarkerOptions();
         markerOptions.position(location);
-        markerOptions.title("커피에반하다 신림녹두거리점");
+        markerOptions.title("컴포즈커피 신림대학점");
         markerOptions.snippet("카페");
         mMap.addMarker(markerOptions);
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 17));
@@ -70,7 +70,7 @@ public class Dessert35 extends AppCompatActivity implements OnMapReadyCallback{
     View.OnClickListener tvListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            Uri uri = Uri.parse("tel:028831771");
+            Uri uri = Uri.parse("tel:050714240325");
             Intent intent = new Intent(Intent.ACTION_DIAL, uri);
             startActivity(intent);
         }
