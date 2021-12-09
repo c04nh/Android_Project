@@ -7,3 +7,6 @@
 <br><br>
 ### 로고 
 ![play_store_512](https://user-images.githubusercontent.com/80023397/145336031-32bca7c3-9efe-46f6-8472-8347ba166497.png)
+<br><br>
+### 실행 화면
+![image](https://user-images.githubusercontent.com/80023397/145336529-9daf2254-b88a-4101-8be7-59c2c4f56a3c.png)
